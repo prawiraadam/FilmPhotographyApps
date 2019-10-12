@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginLeft="24dp"
+    android:layout_marginRight="36dp"
+    android:layout_marginTop="24dp">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/back_arrow">
+    </ImageView>
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="36dp"
+        android:layout_marginBottom="52dp"
+        android:src="@drawable/ic_launcher_background"
+        android:layout_gravity="center_horizontal">
+    </ImageView>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="42dp"
+        android:fontFamily="@font/prata_regular"
+        android:textSize="24sp"
+        android:textColor="#000"
+        android:text="Camera name">
+    </TextView>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="42dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="24dp"
+        android:fontFamily="@font/reemkufi_regular"
+        android:textSize="12sp"
+        android:textColor="#000"
+        android:text="Camera Type">
+    </TextView>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="42dp"
+        android:layout_marginRight="36dp"
+        android:justificationMode="inter_word"
+        android:fontFamily="@font/quattrocento_regular"
+        android:textSize="14sp"
+        android:textColor="#000"
+        android:text="The Canon AE-1 is a 35 mm single-lens reflex (SLR) film camera for use with interchangeable lenses. It was manufactured by Canon Camera K. K. (today Canon Incorporated) in Japan from April 1976 to 1984.">
+    </TextView>
+
+
+</LinearLayout>
