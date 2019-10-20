@@ -65,6 +65,9 @@ public class MainActivity extends AppCompatActivity {
         cameraPhotoUrl.add("https://i.imgur.com/ZcLLrkY.jpg");
         cameraName.add("Washington");
 
+        cameraPhotoUrl.add("https://c1.staticflickr.com/5/4636/25316407448_de5fbf183d_o.jpg");
+        cameraName.add("Havasu Falls");
+
         //Film
         filmPhotoUrl.add("https://c1.staticflickr.com/5/4636/25316407448_de5fbf183d_o.jpg");
         filmName.add("Film 1");
@@ -92,6 +95,9 @@ public class MainActivity extends AppCompatActivity {
 
         filmPhotoUrl.add("https://i.imgur.com/ZcLLrkY.jpg");
         filmName.add("Washington");
+
+        cameraPhotoUrl.add("https://c1.staticflickr.com/5/4636/25316407448_de5fbf183d_o.jpg");
+        cameraName.add("Havasu Falls");
 
         initRecyclerView();
     }
